@@ -1,0 +1,9 @@
+[project]
+name = "deep-learning-coursework"
+version = "0.1.0"
+description = "Code-only educational neural-network exercises with synthetic data"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "pandas>=2.2", "matplotlib>=3.8", "plotly>=6.5.2"]
+
+[project.optional-dependencies]
+notebooks = ["jupyterlab>=4"]
